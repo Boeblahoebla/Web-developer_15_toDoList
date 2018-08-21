@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <script type="text/javascript" src="JS/lib/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+<div id="fullTodoContainer">
+    <div id="header">
+        <h1>TO-DO list <i class="fas fa-plus" id="plusSign"></i> </h1>
+    </div>
+    <div id="addToDoDiv">
+        <input type="text" id="input" placeholder="Add new to do...">
+    </div>
+    <div id="toDos">
+        <ul id="toDoList">
+            <li><span class="delete"> <i class="fas fa-trash-alt"></i> </span>shopping</li>
+            <li><span class="delete"> <i class="fas fa-trash-alt"></i> </span>Play a game</li>
+            <li><span class="delete"> <i class="fas fa-trash-alt"></i> </span>Fix broken machine</li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="./JS/functionality.js"></script>
+
+</body>
+
+</html>
